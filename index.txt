@@ -36,3 +36,4 @@ git log --graph --pretty=oneline --abbrev-commit 可以看到分支合并图
 
 --no-ff 表示禁用Fast forward
 git stash 储存
+__________________________________________________-
