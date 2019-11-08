@@ -35,3 +35,4 @@ git push -u origin master 第一次推送master分支的所有内容
 git log --graph --pretty=oneline --abbrev-commit 可以看到分支合并图
 
 --no-ff 表示禁用Fast forward
+git stash 储存
