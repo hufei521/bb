@@ -1,0 +1,14 @@
+git config --global user.name "Your Name"
+git config --global user.email "email@xample.com"
+mkdir aaa   创建一个名为aaa的目录
+cd aaa  进入目录
+pwd 命令用于显示当前目录
+git init 命令把这个目录变成Git可以管理的仓库
+.git目录 默认隐藏，用ls -ah命令可以看见
+编写一个bbb.txt文件，内容随便写，必须写到刚刚创建的aaa目录下(子目录也可以)，因为这是一个Git仓库，放到其他地方Git再厉害也找不到这个文件
+git add bbb.txt  把文件添加到仓库【git add可以反复多次使用，添加多个文件】
+git commit -m "git指令" 把文件提交到仓库， -m 后面输入的是本次提交的说明
+
+git commit 命令执行成功后会告诉你，1 file changed：1个文件被改动(新添加的bbb.txt文件)；× insertions:插入×行内容(bbb.txt有两行内容)
+git status 命令看结果，可以让我们时刻掌握这仓库当前的状态
+git diff 查看修改内容
