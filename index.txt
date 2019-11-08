@@ -20,3 +20,5 @@ git reset --hard id(版本号) 回退到指定的某个版本
 git reflog 记录你的每一次命令
 git diff HEAD -- bbb.txt 命令可以查看工作区和版本库里面最新版本的区别
 git checkout -- bbb.txt 把bbb.txt文件在工作区的修改全部撤销
+ssh-keygen -t rsa -C "youremail@example.com" 创建SSH Key
+
